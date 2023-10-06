@@ -1,0 +1,109 @@
+table,
+th {
+    border: 2px solid black;
+    width: 200px;
+    margin-left: 70px; 
+
+
+}
+
+th {
+    background-color: lightpink;
+    
+}
+
+body {
+    background-image: url(Imagens/pimenta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.container {
+    justify-content: flex-start;
+    display: flex;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+.page {
+    width: 70%;
+    background-color: rgb(182, 247, 182);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+    margin-bottom: 90px;
+
+}
+
+img {
+    height: 40vh;
+    width: 40vh;
+    border: 1px solid black;
+
+}
+
+.imagem {
+    margin-left: 2vh;
+
+}
+
+.caixa {
+
+    width: 105vh;
+    padding-left: 5px;
+}
+.tabela{
+margin-top: 30px;
+
+
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    margin-top: 40px;
+    background-color: #4e534d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
